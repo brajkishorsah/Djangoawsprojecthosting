@@ -131,6 +131,7 @@ Now create a symlink of this file in `sites-enabled` and restart Nginx:
 sudo ln -s /etc/nginx/sites-available/your_project /etc/nginx/sites-enabled
 sudo nginx -t  # To check if there are any syntax errors
 sudo systemctl restart nginx
+sudo systemctl reload nginx
 ```
 
 ---
